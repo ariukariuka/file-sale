@@ -1,4 +1,21 @@
+@media(max-width: 1024px) {
+    .browse {
+        display: none;
+    }
+    .bottom-header-menu {
+        display: none;
+    }
+    
+}
+@media(min-width: 1024px) {
 
+.browse {
+    display: flex;
+}
+.bottom-header-menu {
+    display: flex;
+}
+}
 
 @media(max-width: 1000px) {
     .header-container  {
@@ -10,12 +27,8 @@
     .shopping{
         display: flex;
     }
-    .browse {
-        display: none;
-    }
-    .bottom-header-menu {
-        display: none;
-    }
+    
+   
    .main-container {
     padding: 0px 35px;
    }
@@ -133,12 +146,8 @@
     .shopping{
         display: none;
     }
-    .browse {
-        display: flex;
-    }
-    .bottom-header-menu {
-        display: flex;
-    }
+   
+    
     .category-down-search {
         display: flex;
     }
